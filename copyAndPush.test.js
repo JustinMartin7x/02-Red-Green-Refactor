@@ -9,7 +9,11 @@ describe('copyAndPush', () => {
         expect(newArr)
             .toEqual([1, 2, 3, 4])
 
-
     });
+    it('shoule return a new array and original array should not be mutated', () => {
+
+        expect(numbers)
+            .toEqual([1, 2, 3])
+    })
 
 });
