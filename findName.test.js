@@ -9,4 +9,5 @@ describe('findName', () => {
         expect(name)
             .toEqual('spot')
     });
+
 });
