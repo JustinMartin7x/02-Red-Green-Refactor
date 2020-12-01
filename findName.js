@@ -1,5 +1,5 @@
 const findName = item => {
-    const { name } = item;
+    const name = item.name;
     return name
 }
 module.exports = {
