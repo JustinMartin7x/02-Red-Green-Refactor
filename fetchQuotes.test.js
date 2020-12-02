@@ -1,6 +1,6 @@
 const { fetchQuotes } = require('./fetchQuotes')
 describe('fetchquotes', () => {
-    it('return a single quote from futurama!', () => {
+    it('return a single quote from futurama!', async () => {
         const quote = await fetchQuotes()
         expect(quote)
             .toEqual({
